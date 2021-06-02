@@ -9,7 +9,7 @@ from bot.clone_status import CloneStatus
 from bot.msg_utils import deleteMessage, sendMessage
 import time
 
-REPO_LINK = "https://github.com/jagrit007/Telegram-CloneBot"
+REPO_LINK = "https://github.com/vmovies404"
 # Soon to be used for direct updates from within the bot.
 
 @run_async
@@ -27,7 +27,7 @@ def helper(update, context):
             "\n\nYou can also *ignore folders* from clone process by doing the following:\n" \
                 "`/clone <FOLDER_ID> [DESTINATION] [id1,id2,id3]`\n In this example: id1, id2 and id3 would get ignored from cloning\nDo not use <> or [] in actual message." \
                     "*Make sure to not put any space between commas (,).*\n" \
-                        f"Source of this bot: [GitHub]({REPO_LINK})", context.bot, update, 'Markdown')
+                        f"Thanks For Using: [GitHub]({REPO_LINK})", context.bot, update, 'Markdown')
 
 # TODO Cancel Clones with /cancel command.
 @run_async
